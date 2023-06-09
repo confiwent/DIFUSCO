@@ -1,2 +1,12 @@
 scripts
 .idea
+
+*.pyc
+*.so
+*.c
+*.o
+*.yml
+
+*.gz
+results/
+data/data/
