@@ -6,6 +6,9 @@ scripts
 *.c
 *.o
 *.yml
+*.txt
+*.ckpt
+*.log
 
 *.gz
 results/
