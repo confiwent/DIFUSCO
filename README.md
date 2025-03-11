@@ -4,6 +4,11 @@ See ["DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization"](ht
 
 ![Alt text](tsp_illustration.png?raw=true "TSP Illustration of DIFUSCO")
 
+<div align="center">
+    <img src="gaussian_difusco_demo_v2.gif" alt="Gaussian" width="256px">
+  <img src="bernouli_difusco_demo.gif" alt="Bernouli" width="256px">
+</div>
+
 ## Setup
 
 ```bash
@@ -43,10 +48,12 @@ Please download the pretrained model checkpoints from [here](https://drive.googl
 If you found this codebase useful, please consider citing the paper:
 
 ```
-@article{sun2023difusco,
-  title={DIFUSCO: Graph-based Diffusion Solvers for Combinatorial Optimization},
-  author={Sun, Zhiqing and Yang, Yiming},
-  journal={arXiv preprint arXiv:2302.08224},
-  year={2023}
+@inproceedings{
+    sun2023difusco,
+    title={{DIFUSCO}: Graph-based Diffusion Solvers for Combinatorial Optimization},
+    author={Zhiqing Sun and Yiming Yang},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+    year={2023},
+    url={https://openreview.net/forum?id=JV8Ff0lgVV}
 }
 ```
